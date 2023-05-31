@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Data</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="sidebar">
+    <h3>My Sidebar</h3>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content">
+
+    <h1>Collage Dashboard</h1>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="year">year:</label>
+        <input type="text" class="form-control" id="year" placeholder="Enter your year" required>
+      </div>
+      <div class="form-group">
+        <label for="Branch">Branch:</label>
+        <input type="text" class="form-control" id="Branch" placeholder="Enter your branch" required>
+      </div>
+      <div class="form-group">
+        <label for="Total_Fees_Paid">Total_Fees_Paid:</label>
+        <input type="text" class="form-control" id="Total_Fees_Paid" placeholder="Enter your Paid fees" required>
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+    <div class="row" id="output"></div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
