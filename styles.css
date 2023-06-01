@@ -10,5 +10,6 @@
   .content {
     margin-left: 250px; /* Adjust this value to match the width of the sidebar */
     padding: 20px;
+    background-color: orange;
   }
   
